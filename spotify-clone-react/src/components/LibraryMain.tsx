@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { CardLibrary } from "./CardLibrary";
+import { Highlights } from "./Highlights";
 
 export function LibraryMain () {
     return ( 
@@ -39,8 +40,8 @@ export function LibraryMain () {
                     img="https://misc.scdn.co/liked-songs/liked-songs-64.png" 
                 />
             </div> 
-            <div> 
-                
+            <div className=""> 
+                <Highlights/>
             </div> 
 
         </div>
