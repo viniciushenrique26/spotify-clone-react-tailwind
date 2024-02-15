@@ -4,7 +4,7 @@ import { Playlist } from './Playlist';
 export function Sidebar() {
     return (
         <div className='flex flex-col gap-2 text-zinc-400 overflow-hidden h-dvh'> 
-            <div className='space-y-5 bg-zinc-950 rounded-md p-6 font-bold text-sm'> 
+            <div className='space-y-5 bg-zinc-925 rounded-md p-6 font-bold text-sm'> 
                 <a className='flex gap-4 items-center cursor-pointer text-md' >
                     <Home className='text-zinc-400 size-6 '/>
                     <span>Início</span>
@@ -15,7 +15,7 @@ export function Sidebar() {
                 </a>
     
             </div> 
-            <div className='flex flex-col   gap-2 mt-2  p-6 bg-zinc-950 rounded-md h-60'> 
+            <div className='flex flex-col   gap-2 mt-2  p-6 bg-zinc-925 rounded-md h-dvh'> 
                     <div className='flex justify-between items-center '>
                         <div className='flex gap-2 items-center'> 
                             <Library className='text-zinc-400 size-6'/>
