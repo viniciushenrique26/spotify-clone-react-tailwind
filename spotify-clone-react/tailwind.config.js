@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'sans': ['Montserrat', 'sans-serif'],
         
+      }, 
+      colors: {
+        'zinc-925': '#121212',
       }
     },
   },

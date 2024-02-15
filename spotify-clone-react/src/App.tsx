@@ -1,3 +1,4 @@
+import { LibraryMain } from "./components/LibraryMain"
 import {Sidebar} from "./components/Sidebar"
 
 
@@ -13,7 +14,7 @@ function App() {
           </nav>
         </aside> 
         <main className="flex-1 p-6"> 
-          Main
+          <LibraryMain/>
         </main>
       </div> 
       <footer className="border-t border-zinc-700 bg-zinc-800 p-6 ">
