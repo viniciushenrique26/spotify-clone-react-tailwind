@@ -1,9 +1,10 @@
-import { Pin } from 'lucide-react';
+
+import { DrawingPinFilledIcon } from '@radix-ui/react-icons';
 
 interface PlaylistProps { 
     name: string;
     image: string;
-    songs: number; 
+    artist: string; 
     type: string;
 
 }
@@ -16,12 +17,12 @@ export function Playlist(props: PlaylistProps) {
                 <img className='w-11 h-11 rounded-sm'src={props.image} alt={props.name} /> 
                 
                 <div className='flex flex-col '> 
-                    <h2 className='text-white text-base'>{props.name}</h2>   
-                    <div className='text-xs flex items-center gap-2'>
-                        <span><Pin className='text-lime-500 w-[12px]'/></span> 
+                    <h2 className='text-white text-xs font-semibold'>{props.name}</h2>   
+                    <div className='text-[10px] font-medium flex items-center gap-2'>
+                        <span><DrawingPinFilledIcon className='text-lime-500 w-[12px]'/></span> 
                         <span>{props.type}</span>  
                         <div className='bg-zinc-500 p-[2px] rounded-full '></div>
-                        <span>{props.songs} músicas</span>
+                        <span>{props.artist}</span>
                     </div> 
                 </div>
             </li>

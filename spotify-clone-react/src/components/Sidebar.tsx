@@ -46,51 +46,51 @@ export function Sidebar() {
                         </ul>
                     </div> 
                     <div className='flex items-center justify-between mt-1'>
-                        <Search className=' text-zinc-400 hover:text-zinc-50 size-6 p-1  bg-zinc-950  hover:bg-zinc-800 rounded-full'/>  
+                        <Search className=' text-zinc-400 hover:text-zinc-50 size-6 p-1  bg-zinc-925  hover:bg-zinc-800 rounded-full'/>  
 
-                        <div className='flex items-center gap-1 text-zinc-400 hover:text-zinc-50 mt-3'>
+                        <div className='flex items-center gap-px text-zinc-400 hover:text-zinc-50 mt-3'>
                             <span className='text-xs'>Recentes</span>
-                            <List className='    size-6 p-1 '/> 
+                            <List className='    size-7 p-1 '/> 
                         </div>
 
                     </div> 
 
-                    <div className='flex flex-col gap-2'> 
+                    <div className='flex flex-col gap-4'> 
                         <Playlist 
                             name='Músicas Curtidas' 
                             image='https://misc.scdn.co/liked-songs/liked-songs-64.png' 
-                            songs={1250} 
+                            artist='Vários artistas'
                             type='Playlist'
                         /> 
                         <Playlist 
-                            name='Músicas Curtidas' 
-                            image='https://misc.scdn.co/liked-songs/liked-songs-64.png' 
-                            songs={1250} 
-                            type='Playlist'
+                            name='Lalaia' 
+                            image='https://i.scdn.co/image/ab67616d0000b273c9c68c9c90f266a0f000bca1' 
+                            artist='Arlindo Cruz' 
+                            type='Álbum'
                         /> 
                         <Playlist 
-                            name='Músicas Curtidas' 
-                            image='https://misc.scdn.co/liked-songs/liked-songs-64.png' 
-                            songs={1250} 
+                            name='Mistureba' 
+                            image='https://lastfm.freetls.fastly.net/i/u/ar0/7de19893cd31990d1f3555bc3503329b.jpg' 
+                            artist='Vários artistas' 
                             type='Playlist'
                         />
                         <Playlist 
-                            name='Músicas Curtidas' 
-                            image='https://misc.scdn.co/liked-songs/liked-songs-64.png' 
-                            songs={1250} 
+                            name='Toca o coração' 
+                            image='https://i.scdn.co/image/ab67616d0000b2738989e0498a9c8cffd6a3bf23' 
+                            artist='Vários artistas'
                             type='Playlist'
                         />
                         <Playlist 
-                            name='Músicas Curtidas' 
-                            image='https://misc.scdn.co/liked-songs/liked-songs-64.png' 
-                            songs={1250} 
-                            type='Playlist'
+                            name='Perdas & Ganhos' 
+                            image='https://i.scdn.co/image/ab67616d00001e0264cd3f5ee97cd49ea5768c5e' 
+                            artist='Vulgo FK'
+                            type='Álbum'
                         />
                         <Playlist 
-                            name='Músicas Curtidas' 
-                            image='https://misc.scdn.co/liked-songs/liked-songs-64.png' 
-                            songs={1250} 
-                            type='Playlist'
+                            name='Papo de UX' 
+                            image='https://i.scdn.co/image/ab67656300005f1f41e6fdb39dd6cbda1db0f609' 
+                            artist='Luan Mateus'
+                            type='Podcast'
                         />
                     </div>
             </div> 
