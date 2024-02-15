@@ -3,7 +3,7 @@ import { CardLibrary } from "./CardLibrary";
 
 export function LibraryMain () {
     return ( 
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 ">
 
             <div className="flex items-center gap-6 ">
                 <button className="size-6">
@@ -14,13 +14,35 @@ export function LibraryMain () {
                 </button>
             </div> 
             <div className="grid grid-cols-3 gap-6">
-                <CardLibrary/>
-                <CardLibrary/>
-                <CardLibrary/>
-                <CardLibrary/>
-                <CardLibrary/>
-                <CardLibrary/>
-            </div>
+                <CardLibrary 
+                    name="Músicas Curtidas" 
+                    img="https://misc.scdn.co/liked-songs/liked-songs-64.png"
+                />
+                <CardLibrary 
+                    name="Lalaia" 
+                    img="https://misc.scdn.co/liked-songs/liked-songs-64.png"
+                /> 
+                <CardLibrary 
+                    name="Samba" 
+                    img="https://misc.scdn.co/liked-songs/liked-songs-64.png" 
+                /> 
+                <CardLibrary 
+                    name="Mistureba" 
+                    img="https://misc.scdn.co/liked-songs/liked-songs-64.png" 
+                /> 
+                <CardLibrary 
+                    name="Marrom" 
+                    img="https://misc.scdn.co/liked-songs/liked-songs-64.png" 
+                /> 
+                <CardLibrary 
+                    name="Zecão" 
+                    img="https://misc.scdn.co/liked-songs/liked-songs-64.png" 
+                />
+            </div> 
+            <div> 
+                
+            </div> 
+
         </div>
     )
 }
