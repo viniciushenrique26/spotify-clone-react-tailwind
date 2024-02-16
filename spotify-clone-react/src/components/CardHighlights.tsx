@@ -11,7 +11,7 @@ export function CardHighlight(props: CardHighlightProps){
         <div className="p-4  bg-zinc-900 flex flex-col gap-2 h-64 rounded-lg group relative hover:bg-zinc-800 transition"> 
             
                 <img src={props.img} alt="album" className="w-40 object-cover rounded-md "/>  
-                <button className='absolute top-28 right-0 w-8 h-8 shadow-xl flex items-center justify-center pr-1 p-2 rounded-full bg-green-400 text-black ml-auto mr-6 invisible group-hover:visible group-hover:animate-fade'>
+                <button className='absolute top-32 right-0 w-8 h-8 shadow-xl flex items-center justify-center pr-1 p-2 rounded-full bg-green-400 text-black ml-auto mr-6 invisible group-hover:visible group-hover:animate-fade'>
                     <img src={PlayIcon} className='size-4'alt="" />
                 </button>
             
