@@ -6,7 +6,7 @@ import { Highlights } from "./Highlights";
 
 export function LibraryMain() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col  ">
 
             <div className="flex items-center gap-6 mb-10 ">
                 <button className="size-6">
@@ -119,7 +119,7 @@ export function LibraryMain() {
                 </div>
 
             </section>
-
+            
             <section>
 
                 <Highlights
@@ -157,8 +157,8 @@ export function LibraryMain() {
                 </div>
 
             </section>
-
-
+            
+            
 
 
         </div>
