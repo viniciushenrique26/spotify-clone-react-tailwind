@@ -1,11 +1,13 @@
+interface HighlightProps {
+    name: string;
+}
 
 
-
-export function Highlights (){
+export function Highlights (props: HighlightProps){
     return (
-        <section className='flex flex-col gap-2'> 
+        <div className='flex flex-col gap-2 mt-10'>
             <div className="flex items-center justify-between">
-                <h4 className='font-semibold text-xl hover:underline'>Parecido com Arlindo Cruz</h4>  
+                <h4 className='font-semibold text-xl hover:underline'>{props.name}</h4>  
            
                 <a href="" className="text-xs font-semibold text-zinc-500 hover:underline">Mostrar tudo</a>
            
@@ -14,6 +16,6 @@ export function Highlights (){
                 
                 
             </div>
-        </section> 
+        </div> 
     )
 }

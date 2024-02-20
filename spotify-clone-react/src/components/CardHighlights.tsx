@@ -7,7 +7,8 @@ interface CardHighlightProps {
     artist: string;
 }
 export function CardHighlight(props: CardHighlightProps){
-    return ( 
+    return (  
+        
         <div className="p-4  bg-zinc-900 flex flex-col gap-2 h-64 rounded-lg group relative hover:bg-zinc-800 transition"> 
             
                 <img src={props.img} alt="album" className="w-40 object-cover rounded-md "/>  

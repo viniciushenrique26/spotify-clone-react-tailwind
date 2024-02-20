@@ -1,4 +1,5 @@
 import { LibraryMain } from "./components/LibraryMain"
+import { Playlist } from "./components/Playlist"
 import {Sidebar} from "./components/Sidebar"
 
 
@@ -16,12 +17,17 @@ function App() {
 
           </nav>
         </aside> 
-        <main className="flex-1 p-6 mt-3  bg-gradient-to-b from-indigo-500/30 via-zinc-925 to-zinc-925 rounded-lg h-[50em] overflow-hidden "> 
+        <main className="flex-1 p-6 mt-3  bg-gradient-to-b from-indigo-500/30 via-zinc-925 to-zinc-925 rounded-lg h-[50em] overflow-auto "> 
           <LibraryMain/>
         </main>
       </div> 
-      <footer className="border-t border-zinc-700 bg-zinc-800 p-6 ">
-        Footer
+      <footer className=" bg-zinc-950 p-6">
+        <Playlist  
+          name='Perdas & Ganhos' 
+          image='https://i.scdn.co/image/ab67616d00001e0264cd3f5ee97cd49ea5768c5e' 
+          artist='Vulgo FK'
+          type=''
+        />
       </footer> 
       
     </div>

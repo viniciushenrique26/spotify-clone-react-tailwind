@@ -3,7 +3,7 @@ import { Playlist } from './Playlist';
 
 export function Sidebar() {
     return (
-        <div className='flex flex-col gap-2 text-zinc-400 overflow-hidden h-dvh'> 
+        <div className='flex flex-col gap-2 text-zinc-400 h-dvh'> 
             <div className='space-y-5 bg-zinc-925 rounded-md p-6 font-bold text-sm'> 
                 <a className='flex gap-4 items-center cursor-pointer text-md' >
                     <Home className='text-zinc-400 size-6 '/>
@@ -15,7 +15,7 @@ export function Sidebar() {
                 </a>
     
             </div> 
-            <div className='flex flex-col   gap-2 mt-2  p-6 bg-zinc-925 rounded-md h-dvh'> 
+            <div className='flex flex-col   gap-2 mt-2  p-6 bg-zinc-925 rounded-md h-auto'> 
                     <div className='flex justify-between items-center '>
                         <div className='flex gap-2 items-center'> 
                             <Library className='text-zinc-400 size-6'/>
@@ -53,9 +53,11 @@ export function Sidebar() {
                             <List className='    size-7 p-1 '/> 
                         </div>
 
-                    </div> 
+                    </div>  
 
-                    <div className='flex flex-col gap-4'> 
+                
+                
+                    <div className='flex flex-col gap-4  overflow-auto'> 
                         <Playlist 
                             name='Músicas Curtidas' 
                             image='https://misc.scdn.co/liked-songs/liked-songs-64.png' 
@@ -91,8 +93,46 @@ export function Sidebar() {
                             image='https://i.scdn.co/image/ab67656300005f1f41e6fdb39dd6cbda1db0f609' 
                             artist='Luan Mateus'
                             type='Podcast'
+                        /> 
+                        <Playlist 
+                            name='Toca o coração' 
+                            image='https://i.scdn.co/image/ab67616d0000b2738989e0498a9c8cffd6a3bf23' 
+                            artist='Vários artistas'
+                            type='Playlist'
                         />
-                    </div>
+                        <Playlist 
+                            name='Perdas & Ganhos' 
+                            image='https://i.scdn.co/image/ab67616d00001e0264cd3f5ee97cd49ea5768c5e' 
+                            artist='Vulgo FK'
+                            type='Álbum'
+                        />
+                        <Playlist 
+                            name='Papo de UX' 
+                            image='https://i.scdn.co/image/ab67656300005f1f41e6fdb39dd6cbda1db0f609' 
+                            artist='Luan Mateus'
+                            type='Podcast'
+                        /> 
+                         <Playlist 
+                            name='Toca o coração' 
+                            image='https://i.scdn.co/image/ab67616d0000b2738989e0498a9c8cffd6a3bf23' 
+                            artist='Vários artistas'
+                            type='Playlist'
+                        />
+                        <Playlist 
+                            name='Perdas & Ganhos' 
+                            image='https://i.scdn.co/image/ab67616d00001e0264cd3f5ee97cd49ea5768c5e' 
+                            artist='Vulgo FK'
+                            type='Álbum'
+                        />
+                        <Playlist 
+                            name='Papo de UX' 
+                            image='https://i.scdn.co/image/ab67656300005f1f41e6fdb39dd6cbda1db0f609' 
+                            artist='Luan Mateus'
+                            type='Podcast'
+                        />
+                    </div>  
+
+               
             </div> 
             
 
